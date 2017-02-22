@@ -1,0 +1,240 @@
+
+<style>
+
+body {
+
+background-color: red;
+
+font: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+h1 {
+
+font: Arial, Helvetica, sans-serif;
+
+color: yellow;
+
+}
+
+
+
+h2 {
+
+font: Arial, Helvetica, sans-serif;
+
+color: green;
+
+}
+
+
+
+h3 {
+
+font: Arial, Helvetica, sans-serif;
+
+color: red;
+
+}
+
+
+
+h4 {
+
+font: Arial, Helvetica, sans-serif;
+
+color: white;
+
+}
+
+
+
+div.img {
+
+float: left;
+
+margin: 5px;
+
+width: 240px;
+
+height: 240px;
+
+overflow: hidden;
+
+border: 5px solid red;
+
+border-radius: 15px;
+
+object-fit: cover;
+
+-webkit-box-shadow: 5px 5px 5px yellow;
+
+box-shadow: 5px 5px yellow;
+
+}
+
+
+
+.grow img {
+
+width: 250px;
+
+height: 250px;
+
+
+
+-webkit-transition: all 1s ease;
+
+-moz-transition: all 1s ease;
+
+-o-transition: all 1s ease;
+
+-ms-transition: all 1s ease;
+
+transition: all 1s ease;
+
+}
+
+
+
+.grow img:hover {
+
+width: 320px;
+
+height: 320px;
+
+}
+
+
+
+#header {
+
+background-color:red;
+
+border-radius: 15px;
+
+object-fit: cover;
+
+color:white;
+
+font: Arial, Helvetica, sans-serif;
+
+text-align:center;
+
+padding:5px;
+
+}
+
+
+
+#photo {
+
+width:270px;
+
+float:left;
+
+padding:10px;
+
+}
+
+
+
+#ingredients {
+
+width:270px;
+
+float:left;
+
+padding:10px;
+
+}
+
+
+
+#directions {
+
+width: 270px;
+
+float: left;
+
+padding:10px;
+
+list-style: none;
+
+}
+
+#directions div {
+
+display: block;
+
+background-color: yellow;
+
+font-weight: bolder;
+
+font-size: 13pt;
+
+cursor: pointer;
+
+padding: 7 7 7 7px;
+
+-moz-border-radius: 10px;
+
+-webkit-border-radius: 10px;
+
+border-radius: 10px;
+
+}
+
+.content {
+
+display: block;
+
+font-weight: lighter;
+
+font-size: 12pt;
+
+margin: 1px;
+
+}
+
+
+
+#button {
+
+width: 100px;
+
+height: 40px;
+
+float: left;
+
+border-radius: 25px;
+
+background-color: red;
+
+text-align: center;
+
+font-size: 12pt;
+
+padding: 5 5 5 5px;
+
+-webkit-box-shadow: 5px 5px 5px yellow;
+
+box-shadow: 5px 5px yellow;
+
+cursor: pointer;
+
+}
+
+
+
+#button:hover {
+
+background-color: green;
+
+}
+
+
+
+</style>
